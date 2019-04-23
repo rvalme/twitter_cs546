@@ -21,6 +21,7 @@ class Tweet:
             print("----------------------------------------------------------------------------------")
             print(self.tweet_text)
             print('Likes: ' + str(self.num_likes) + '       Retweets: ' + str(self.num_retweets) + '      Comments: ' + str(self.num_comments))
+            print('Tweet id: ' + str(self.id))
             print("----------------------------------------------------------------------------------")
 
 
@@ -29,15 +30,24 @@ class NewsFeed:
 
     def __init__(self, Tweets, num_tweets=10):
         self.num_tweets = num_tweets
+        self.FeedPosition = 0
+        self.FeedMax = 100
         self.Tweets = Tweets
         self.filteredNF = {}
 
 
-    def print_newsfeed(self):
-        for x, ind in zip(self.Tweets, xrange(self.num_tweets)):
-            self.Tweets[x].print_tweet()
-            if ind == self.num_tweets:
+    def print_newsfeed(self, tid):
+        print("##################################################################################")
+        print("----------------------------------NEWSFEED----------------------------------------")
+        print("##################################################################################")
+        for x, ind in zip(tid, xrange(self.num_tweets)):
+            self.Tweets[tid[self.FeedPosition]].print_tweet()
+            self.FeedPosition += 1
+            if ind >= self.num_tweets:
                 break
+        if(self.FeedPosition >= self.FeedMax):
+            self.FeedPosition = 0
+
 
     def filter_newsfeed(self, topic):
         self.filteredNF = {}
@@ -47,5 +57,8 @@ class NewsFeed:
 
 
     def print_filtered_nf(self):
+        print("##################################################################################")
+        print("-----------------------------FILTERED-NEWSFEED------------------------------------")
+        print("##################################################################################")
         for x in self.filteredNF:
             self.filteredNF[x].print_tweet()
