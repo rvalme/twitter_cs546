@@ -1,10 +1,12 @@
 import numpy as np
-class Artist:
+class Artists:
 
-        def __init__(self, tweet_text):
-            self.num_likes = 0
-            self.num_comments = 0
-            self.num_retweets = 0
+        def __init__(self, artist_text):
+            self.first_name = [tt].first_name
+            self.last_name = [tt].last_name
+            self.city = [tt].city
+	    self.state = [tt].state
+	    self.zip_code = [tt].zip_code
             self.id = np.random.randint(100000)
             self.artist_text = artist_text
 
