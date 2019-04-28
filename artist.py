@@ -1,12 +1,12 @@
 import numpy as np
-class Artists:
+class Artist:
 
         def __init__(self, artist_text):
-            self.first_name = [tt].first_name
-            self.last_name = [tt].last_name
-            self.city = [tt].city
-	    self.state = [tt].state
-	    self.zip_code = [tt].zip_code
+            self.first_name = artist_text['first_name']
+            self.last_name = artist_text['last_name']
+            self.city = artist_text['city']
+    	    self.state = artist_text['state']
+    	    self.zip_code = artist_text['zip_code']
             self.id = np.random.randint(100000)
             self.artist_text = artist_text
 

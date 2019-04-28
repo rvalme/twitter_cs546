@@ -1,6 +1,6 @@
 import numpy as np
 import json
-from artist import Artists, FindLocalArtist
+from artist import Artist, FindLocalArtist
 import random
 import time
 
@@ -14,19 +14,20 @@ def setup():
     tid = []
     for _ in range(100): #tweet_texts['tweets']:
         tt = random.choice(artist_texts["artists"])
-        tw = Artists[tt]
+        tw = Artist(tt)
         #tw.like_tweet(np.random.randint(20))
         #tw.add_retweet(np.random.randint(20))
         #tw.add_comment(np.random.randint(20))
         tid.append(tw.id)
         Artists[tw.id] = tw
-    Artistsf = ArtistFeed(Artists)
+    Artistsf = FindLocalArtist(Artists)
     '''
     import pdb;pdb.set_trace()
     for tw in Tweets:
         Tweets[tw].print_tweet()
     '''
-    return Artistf
+    import pdb;pdb.set_trace()
+    return Artistsf
     #Newsf.print_newsfeed()
 #---------------------------------------
 
