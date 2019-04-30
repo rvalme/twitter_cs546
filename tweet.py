@@ -94,7 +94,6 @@ class Artist:
             print('  " "')
 
             print("| Name: "+ self.first_name + " " + self.last_name + " |")
-            print("| Location: "+ self.city + "," + self.state + " |")
             print("| Bio: " + self.bio + " |")
             print("| Dist: " + str(self.dist) + "mi |")
             print("| Hobby: " + self.hobby + " |")
