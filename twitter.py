@@ -13,7 +13,7 @@ def setup():
     Tweets = {}
     tid = []
     max_tweets = len(tweet_texts['tweets'])
-    for x in xrange(max_tweets): #tweet_texts['tweets']:
+    for x in xrange(max_tweets):
         rn = np.random.randint(max_tweets - x) #always will be a unique tweet
         tt = tweet_texts['tweets'][rn]
         tweet_texts['tweets'].pop(rn)
@@ -24,11 +24,6 @@ def setup():
         tid.append(tw.id)
         Tweets[tw.id] = tw
     Newsf = NewsFeed(Tweets)
-    '''
-    import pdb;pdb.set_trace()
-    for tw in Tweets:
-        Tweets[tw].print_tweet()
-    '''
     return (Newsf, tid)
     #Newsf.print_newsfeed()
 #---------------------------------------
