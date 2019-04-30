@@ -1,0 +1,22 @@
+{
+  "artists": 
+[{"first_name":"Hortensia","last_name":"Van Castele","city":"San Bernardino","state":"California","zip_code":"92424","bio":"Problem solver. Alcohol guru. Zombie junkie. Web aficionado. Gamer. Internet ninja.","topic":"music"},
+{"first_name":"Dael","last_name":"Chisholme","city":"Pensacola","state":"Florida","zip_code":"32520","bio": "Gamer. Analyst. Infuriatingly humble problem solver. Tv expert. Explorer. Troublemaker. Student. Communicator.","topic":"music"},
+{"first_name":"Ariel","last_name":"Dagless","city":"Washington","state":"District of Columbia","zip_code":"20535","bio":"Freelance problem solver. Tv guru. Web fanatic. Hardcore pop culture lover. General organizer. Passionate zombie geek.","topic":"music"},
+{"first_name":"Fidole","last_name":"Rigeby","city":"San Diego","state":"California","zip_code":"92115","bio": "Award-winning coffee advocate. Infuriatingly humble tv ninja. Evil gamer. Social media fanatic. Extreme zombie guru.", "topic":"drawing"},
+{"first_name":"Chery","last_name":"de Almeida","city":"New York City","state":"New York","zip_code":"10009","bio":"Organizer. Typical alcohol ninja. Total beer enthusiast. Travelaholic. Zombie fan. Lifelong food guru.","topic":"drawing"},
+{"first_name":"Wilhelmina","last_name":"Mettericke","city":"Minneapolis","state":"Minnesota","zip_code":"55412","bio":"Reader. Freelance social media practitioner. Bacon fanatic. Typical web expert.","topic":"graphic design"},
+{"first_name":"Amby","last_name":"Bagnall","city":"Atlanta","state":"Georgia","zip_code":"30368","bio":"Avid thinker. Food geek. Travelaholic. Explorer. Beer fanatic. Entrepreneur.","topic":"graphic design"},
+{"first_name":"Bernie","last_name":"Emanuele","city":"Amarillo","state":"Texas","zip_code":"79159","bio":"Infuriatingly humble bacon buff. Hardcore beer fanatic. Typical problem solver.","topic":"graphic design"},
+{"first_name":"Townie","last_name":"Geeve","city":"New York City","state":"New York","zip_code":"10039", "bio":"Total internet nerd. Music specialist. Passionate twitter fanatic. Web buff. Writer.","topic":"sculpting"},
+{"first_name":"Gabbi","last_name":"Darbyshire","city":"San Diego","state":"California","zip_code":"92186","bio":"Tv advocate. Web nerd. Beer fanatic. Unable to type with boxing gloves on. Subtly charming twitter evangelist.","topic":"sculpting"},
+{"first_name":"Tracee","last_name":"Switland","city":"Washington","state":"District of Columbia","zip_code":"20005","bio":"Proud explorer. General internet buff. Food scholar. Hardcore reader.","topic":"sculpting"},
+{"first_name":"Dov","last_name":"Ickovicz","city":"Arlington","state":"Virginia","zip_code":"22234","bio":"Food guru. Award-winning thinker. Problem solver. Lifelong travel nerd. Avid student. Pop culture scholar.","topic":"painting"},
+{"first_name":"Nanny","last_name":"Hasney","city":"Columbia","state":"South Carolina","zip_code":"29215","bio":"Zombie fan. Hardcore music fanatic. Unapologetic coffee fanatic. Web practitioner.","topic":"painting"},
+{"first_name":"Kimball","last_name":"Feetham","city":"Fort Smith","state":"Arkansas","zip_code":"72916","bio":"Hardcore web trailblazer. Lifelong thinker. Total coffee nerd. General zombie guru. Social media geek.",
+"topic":"painting"},
+{"first_name":"Peder","last_name":"Fillimore","city":"San Francisco","state":"California","zip_code":"94137","bio":"Travel nerd. Total introvert. Zombie lover. Typical twitter junkie. Prone to fits of apathy. Hardcore pop culture ninja. Evil reader.","topic":"calligraphy"},
+{"first_name":"Alice","last_name":"Manginot","city":"Cincinnati","state":"Ohio","zip_code":"45228","bio": "Problem solver. Alcohol guru. Zombie junkie. Web aficionado. Gamer. Internet ninja.","topic":"calligraphy"},
+{"first_name":"Heida","last_name":"Hinstock","city":"Memphis","state":"Tennessee","zip_code":"38181", "bio":"Gamer. Analyst. Infuriatingly humble problem solver. Tv expert. Explorer. Troublemaker. Student. Communicator.","topic":"calligraphy"},
+{"first_name":"Caspar","last_name":"Pawelczyk","city":"Chesapeake","state":"Virginia","zip_code":"23324", "bio":"Freelance problem solver. Tv guru. Web fanatic. Hardcore pop culture lover. General organizer. Passionate zombie geek.","topic":"calligraphy"}]
+}
