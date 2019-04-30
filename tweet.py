@@ -33,8 +33,16 @@ class NewsFeed:
         self.FeedPosition = 0
         self.FeedMax = 100
         self.Tweets = Tweets
+        self.topics = ['music', 'art', 'money', 'entertainment', 'media', 'science', 'history', 'math', 'news']
         self.filteredNF = {}
 
+
+    def print_topics(self):
+        print("##################################################################################")
+        print("----------------------------------TOPICS------------------------------------------")
+        print("##################################################################################")
+        for ind, x in enumerate(self.topics):
+            print(str(ind + 1) + '. ' + x)
 
     def print_newsfeed(self, tid):
         print("##################################################################################")
@@ -70,7 +78,6 @@ class Artist:
             self.last_name = artist['last_name']
             self.city = artist['city']
     	    self.state = artist['state']
-    	    self.zip_code = artist['zip_code']
     	    self.bio = artist['bio']
     	    self.hobby = artist['topic']
             self.id = np.random.randint(100000)
@@ -100,8 +107,16 @@ class LocalArtists:
     def __init__(self, Artists, num_artists=10):
         self.num_artists = num_artists
         self.Artists = Artists
-        self.filteredNF = {}
+        self.hobbies = ['music', 'painting', 'calligraphy', 'graphic design', 'sculpting', 'drawing']
+        self.filteredArtists = {}
 
+
+    def print_hobbies(self):
+        print("##################################################################################")
+        print("----------------------------------HOBBIES---------------------------------------")
+        print("##################################################################################")
+        for ind, x in enumerate(self.hobbies):
+            print(str(ind + 1) + '. ' + x)
 
     def print_artists(self):
         for x, ind in zip(self.Artists, xrange(self.num_artists)):
@@ -109,13 +124,23 @@ class LocalArtists:
             if ind == self.num_artists:
                 break
 
-    def filter_artist(self, topic):
-        self.filteredNF = {}
+    def filter_hobbies(self, topic):
+        print("##################################################################################")
+        print("-----------------------------FILTERED HOBBIESTS-----------------------------------")
+        print("##################################################################################")
+        self.filteredArtists = {}
         for x in self.Artists:
-            if topic in self.Artists[x].artist_text:
-                self.filteredNF[x] = self.Artists[x]
+            if topic == self.Artists[x].hobby:
+                self.filteredArtists[x] = self.Artists[x]
+
+    def filter_distance(self, topic):
+        self.filteredArtists = {}
+        for x in self.Artists:
+            if self.Artists[x].dist < int(topic):
+                self.filteredArtists[x] = self.Artists[x]
 
 
-    def print_filtered_nf(self):
-        for x in self.filteredNF:
-            self.filteredNF[x].print_artist()
+
+    def print_filtered_artists(self):
+        for x in self.filteredArtists:
+            self.filteredArtists[x].print_artist()
