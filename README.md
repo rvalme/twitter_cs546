@@ -12,4 +12,11 @@ The below contains the instructions for using out prototype Twitter
     1. pn - Print News Feed
     2. fn topic - Filter NewsFeed
     3. e End Session
-    4. ph - Print Hobbyists
+    4. li id - Like Tweet
+    5. re id - Retweet Tweet
+    6. cm id - Comment on Tweet
+    7. lh - List Hobbies
+    8. ph - Print Hobbyists
+    9. fh hobby - Filter Hobbyists by hobby
+    10. fd distance - Filter Hobbyists by distance in mi. Max distance is 10 mi.
+    11. e - End session
