@@ -20,7 +20,7 @@ Then navigate the directory/folder where you are storing the running files
 
 You will then encounter a prompt where you are given the following: 
 
-“pn - Print News Feed, fn - Filter News Feed, - End Session”
+“pn - Print News Feed, fn - Filter News Feed, e - End Session, ph - Print Hobbyists”
 
 If you want to print all the news feed, type “pn”, if you want to filter the news feed type, for example music, type “music fn”, if you want to Print Hobbyists that are local to you type "ph", if you want to end the session type “e”.
 
