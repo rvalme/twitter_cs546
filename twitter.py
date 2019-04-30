@@ -44,10 +44,10 @@ def start_loop(Newsf, LocalArtists):
 #---------------------------------------
     inp = ''
     while(1):
-        print("pn - Print News Feed, fn topic - Filter NewsFeed, e End Session, pa - Print Artists")
+        print("pn - Print News Feed, fn topic - Filter NewsFeed, e End Session, ph - Print Hobbyists")
         inp = raw_input("Enter: ")
         inp = inp.split(' ')
-        if(inp[0] == 'pa'):
+        if(inp[0] == 'ph'):
             LocalArtists.print_artists()
         if(inp[0] == 'pn'):
             Newsf.print_newsfeed()
