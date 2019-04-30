@@ -1,5 +1,5 @@
 # twitter_cs546
-To run these apps, you must have python 2.7 installed
+To run this app, you must have python 2.7 installed
 
 This application has two main features that we think would be favorable for Twitter.
 The first is being able to filter your newsfeed by some topic or keyword. The second is
