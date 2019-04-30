@@ -10,7 +10,7 @@ In order to run our prototype twitter run the following:
 <br/>
 `python twitter.py`
 
-The below contains the instructions for using out prototype Twitter
+The below contains the instructions for using out prototype Twitter:<br/>
     1. pn - Print News Feed<br/>
     2. lt - List Topics<br/>
     3. fn topic - Filter NewsFeed<br/>
