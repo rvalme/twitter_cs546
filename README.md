@@ -10,8 +10,8 @@ In order to run our prototype twitter run the below:
 
 The below contains the instructions for using out prototype Twitter
     1. pn - Print News Feed
-    2. fn topic - Filter NewsFeed
-    3. e End Session
+    2. lt - List Topics
+    3. fn topic - Filter NewsFeed
     4. li id - Like Tweet
     5. re id - Retweet Tweet
     6. cm id - Comment on Tweet
